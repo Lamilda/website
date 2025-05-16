@@ -194,6 +194,14 @@ const timelineContent = {
             }
           ]
         }
+      },
+      {
+        position: "right",
+        icon: '<img src="img/carat.png" alt="Carat logo" class="company-logo">',
+        title: "2015",
+        date: "Media planner at Carat",
+        description: "My next career move brought me to a larger international media agency, where I applied my growing expertise to support high-profile clients. I focused on implementing media strategies by planning and optimizing campaigns across various platforms to drive strong results. I was also responsible for ensuring campaigns were delivered on time and within budget. Additionally, I contributed to the development of client marketing strategies and supported pitch teams in winning new business.",
+        hasModal: false
       }
     ]
     

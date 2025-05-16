@@ -9,7 +9,7 @@ I excel at juggling multiple projects with precision, consistently delivering hi
 Skilled in managing full project lifecycles and streamlining processes, I'm now eager to broaden my impact by stepping into a more expansive project management role.  
 
 <div class="resume-download">
-    <a href="resume/Milda_Resume.pdf" download class="download-button">
+    <a href="resume/resume.pdf" download class="download-button">
         📄 Download Resume (PDF)
     </a>
 </div>
