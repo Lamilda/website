@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Basic SEO Meta Tags -->
+    <title>Milda - Marketing Project Manager | Portfolio</title>
+    <meta name="description" content="Marketing professional with 14 years of experience in project management, campaign strategy, and market launches. Specializing in multi-regional campaigns and digital transformation.">
+    <meta name="keywords" content="marketing project manager, campaign strategy, market launch, Vinted, Nordic markets, digital marketing">
+    <meta name="author" content="Milda">
+    
+    <!-- Open Graph / Facebook Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://your-domain.com/">
+    <meta property="og:title" content="Milda - Marketing Project Manager Portfolio">
+    <meta property="og:description" content="14 years of experience in marketing project management, specializing in multi-regional campaigns and market launches.">
+    <meta property="og:image" content="https://your-domain.com/img/og-image.jpg">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://your-domain.com/">
+    <meta name="twitter:title" content="Milda - Marketing Project Manager Portfolio">
+    <meta name="twitter:description" content="14 years of experience in marketing project management, specializing in multi-regional campaigns and market launches.">
+    <meta name="twitter:image" content="https://your-domain.com/img/twitter-image.jpg">
+    
+    <!-- Additional SEO Meta Tags -->
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <meta name="theme-color" content="#6c5ce7">
+    
+    <!-- Favicon Tags -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <div class="video-container">
+        <video autoplay muted loop id="myVideo" playsinline>
+            <source src="3.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="video-overlay">
+            <h1>Hello world</h1>
+        </div>
+        <div class="video-caption">
+            <p>Vinted launch campaign in Denmark 2023</p>
+        </div>
+    </div>
+    
+    <div class="tabs-container">
+        <div class="tabs">
+            <button class="tab-btn active" onclick="openTab(event, 'tab1')">Introduction</button>
+            <button class="tab-btn" onclick="openTab(event, 'tab2')">Timeline</button>
+        </div>
+        
+        <div id="tab1" class="tab-content active">
+            <div class="container">
+                <!-- <header>
+                    <h1>Professional Journey</h1>
+                    <p class="subtitle">Explore my career path and key achievements through this interactive timeline</p>
+                </header> -->
+                <div class="resume-grid">
+                    <div class="resume-column">
+                        <h2>About me</h2>
+                        <div id="resume-section-experience" class="resume-section">
+                            <!-- Experience content will be loaded here -->
+                        </div>
+                    </div>
+                    <div class="resume-column">
+                        <h2>Core competencies</h2>
+                        <div id="resume-section-competencies" class="resume-section">
+                            <!-- Competencies content will be loaded here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="tab2" class="tab-content">
+            <div class="container">
+                <header>
+                    <h1>Professional timeline</h1>
+                    <p class="subtitle">
+                        Over the past 14 years, I've adapted to a range of roles within the marketing and advertising industry—starting as a media planner in 2011, stepping into account management, and most recently leading mass media marketing projects. In my latest role, I drove Vinted's product launch campaigns across 🇨🇦 Canada, 🇫🇮 Finland, 🇸🇪 Sweden, and 🇩🇰 Denmark.</p>
+                    </p>
+                </header>
+                <div class="timeline" id="timeline-container">
+                    <!-- Timeline items will be populated dynamically -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal container - will be populated dynamically -->
+    <div id="modals-container"></div>
+
+    <!-- Load external scripts -->
+    <script src="content.js"></script>
+    <script src="script.js"></script>
+    <script src="markdown-loader.js"></script>
+
+    <!-- Timeline item template -->
+    <template id="timeline-item-template">
+        <div class="timeline-item">
+            <div class="icon">
+                <!-- For image icons -->
+                <img src="" alt="" class="icon-img" style="display: none;">
+                <!-- For emoji icons -->
+                <span class="icon-emoji" style="display: none;"></span>
+            </div>
+            <div class="content">
+    </template>
+
+    <footer>
+        <p>✨ Vibe coded in Copenhagen</p>
+    </footer>
+</body>
+</html> 
