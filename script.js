@@ -116,7 +116,7 @@ function populateTimeline() {
         if (item.hasModal) {
             const viewMore = document.createElement('a');
             viewMore.className = 'view-more';
-            viewMore.textContent = 'View more details';
+            viewMore.textContent = 'See campaing examples';
             viewMore.onclick = function() { openModal(item.modalId); };
             content.appendChild(viewMore);
             
