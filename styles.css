@@ -224,7 +224,7 @@ body {
 .view-more {
     display: inline-block;
     margin-top: 10px;
-    color: #6c5ce7;
+    color: #520840;
     cursor: pointer;
     text-decoration: underline;
 }
@@ -335,7 +335,7 @@ h3 {
     content: '';
     position: absolute;
     width: 2px;
-    background: #6c5ce7;
+    background: #520840;
     top: 0;
     bottom: 0;
     left: 50%;
@@ -354,7 +354,7 @@ h3 {
     position: absolute;
     width: 20px;
     height: 20px;
-    background: #6c5ce7;
+    background: #520840;
     border-radius: 50%;
     top: 20px;
 }
@@ -412,7 +412,7 @@ h3 {
 
 .date {
     font-size: 0.9rem;
-    color: #6c5ce7;
+    color: #520840;
     margin-bottom: 0.5rem;
 }
 
@@ -474,11 +474,11 @@ h3 {
 }
 
 .tab-btn:hover {
-    color: #6c5ce7;
+    color: #520840;
 }
 
 .tab-btn.active {
-    color: #6c5ce7;
+    color: #520840;
     font-weight: 500;
 }
 
@@ -489,7 +489,7 @@ h3 {
     left: 0;
     width: 100%;
     height: 3px;
-    background-color: #6c5ce7;
+    background-color: #520840;
 }
 
 .tab-content {
@@ -526,7 +526,7 @@ h3 {
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
     padding-bottom: 0.5rem;
-    border-bottom: 2px solid #6c5ce7;
+    border-bottom: 2px solid #520840;
 }
 
 .resume-section {
@@ -607,7 +607,7 @@ p, .subtitle, .content, .resume-section, .timeline-item, .modal-content {
     display: inline-flex;
     align-items: center;
     padding: 0.75rem 1.5rem;
-    background-color: #6c5ce7;
+    background-color: #520840;
     color: white;
     text-decoration: none;
     border-radius: 8px;
