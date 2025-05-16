@@ -1,4 +1,4 @@
-<img src="img/vinted.png" alt="Vinted logo" class="company-logo">
+<img src="img/milda.jpeg" alt="Portrait image" class="company-logo">
 
 Hi, I'm Milda — a Lithuanian marketing professional based in Copenhagen, with 14 years of experience in marketing, account management, and project coordination.  
 <br>
