@@ -104,12 +104,12 @@ function populateTimeline() {
         // Add date
         const date = document.createElement('div');
         date.className = 'date';
-        date.textContent = item.date;
+        date.innerHTML = item.date;
         content.appendChild(date);
         
         // Add description
         const description = document.createElement('p');
-        description.textContent = item.description;
+        description.innerHTML = item.description;
         content.appendChild(description);
         
         // Add "View more" link if has modal
