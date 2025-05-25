@@ -47,7 +47,12 @@ const timelineContent = {
         icon: '<img src="img/vinted.png" alt="Vinted logo" class="company-logo">',
         title: "2020",
         date: "Mass media marketing project manager at Vinted",
-        description: "<p>My next step took me to the client side, where I joined Vinted—a fast-growing tech company on a mission to make second-hand fashion the first choice. As <b>Mass Media Marketing Project Manager</b>, I was responsible for <b>driving growth in the German and Belgian</b> markets through strategic offline communication. I <b>led end-to-end project management, aligning cross-functional stakeholders and ensuring timely, effective campaign execution</b> across regions.</p> <p>Working in a fast-paced, high-growth environment, I managed large-scale budgets and tight deadlines while <b>maintaining a structured, solution-oriented approach. I oversaw external media agencies</b>, providing clear briefs and strategic direction to ensure strong campaign delivery. Data played a key role in my decision-making, and I leveraged <b>econometric models and performance analytics to evaluate campaign effectiveness and uncover actionable insights</b>.</p> <p>Notable achievements included tailoring communication strategies for Belgium’s distinct language regions, managing mass media efforts during Vinted’s rebranding in Germany, and leading a cross-functional analysis of user behavior following a major platform update.</p>",
+        description: `
+        <p>My next step took me to the client side, where I joined Vinted—a fast-growing tech company on a mission to make second-hand fashion the first choice. As <b>Mass Media Marketing Project Manager</b>, I was responsible for <b>driving growth in the German and Belgian</b> markets through strategic offline communication. I <b>led end-to-end project management, aligning cross-functional stakeholders and ensuring timely, effective campaign execution</b> across regions.</p> 
+
+        <p>Working in a fast-paced, high-growth environment, I managed large-scale budgets and tight deadlines while <b>maintaining a structured, solution-oriented approach. I oversaw external media agencies</b>, providing clear briefs and strategic direction to ensure strong campaign delivery. Data played a key role in my decision-making, and I leveraged <b>econometric models and performance analytics to evaluate campaign effectiveness and uncover actionable insights</b>.</p>
+
+        <p>Notable achievements included tailoring communication strategies for Belgium’s distinct language regions, managing mass media efforts during Vinted’s rebranding in Germany, and leading a cross-functional analysis of user behavior following a major platform update.</p>`,
         hasModal: false
       },
       {
@@ -67,19 +72,16 @@ const timelineContent = {
         hasModal: true,
         modalId: "sweden2022Modal",
         modalContent: {
-          projectOverview: "Led Vinted's strategic entry into the Swedish market, successfully navigating unique media consumption patterns and establishing a strong brand presence in the Nordic region.",
-          challenges: [
-            "Adapting to distinct Nordic media consumption patterns, particularly in TV viewership",
-            "Developing market-specific communication strategies",
-            "Building brand awareness in a competitive second-hand market",
-            "Establishing effective measurement frameworks for campaign performance"
+          projectOverview: "As part of our efforts to accelerate growth in a challenging market, I led the development and execution of a strategic media diversification initiative. The goal was to identify a high-performing media mix that would increase brand awareness, improve user acquisition, and ultimately deliver stronger ROI and shorter payback periods. This involved introducing new offline channels into a performance-driven environment where digital and TV had traditionally dominated.",
+          challenges: ["<p>Introducing new media channels required overcoming several hurdles in a data-focused and performance-driven environment:</p>",
+            "- Lower TV viewership compared to other high-performing markets",
+            "- Insufficient growth to meet planned ROI targets",
+            "- The need to diversify the media mix to extend reach beyond existing channels",
+            "- A requirement for robust data and measurable performance to justify new investments"
           ],
-          approach: "Implemented an innovative multi-channel strategy combining traditional and digital media, with special focus on local market nuances. Developed and executed comprehensive testing frameworks to optimize campaign performance and drive user acquisition.",
+          approach: "Working closely with cross-functional teams across Brand, Production, Digital, and Data, we aligned on budget priorities and developed a detailed media plan. This included rigorous testing frameworks to validate new channels, with clear hypotheses, performance metrics, and risk assessments. Once approved, I briefed our media agency, adapted plans to vendor availabilities, and ensured seamless execution in collaboration with internal teams. I also oversaw stakeholder alignment and managed the delivery of creative assets while maintaining a focus on performance tracking and data integrity.",
           results: [
-            "Successfully established Vinted as a recognized brand in the Swedish market",
-            "Developed replicable testing frameworks later used in other Nordic markets",
-            "Created effective communication strategies that resonated with the local audience",
-            "Built strong foundations for further Nordic expansion"
+            "The Out-of-Home campaign led to a 30% increase in brand awareness and consideration among the target audience. While short-term product metrics showed limited impact, the campaign contributed to sustained long-term growth, with noticeable improvements across all product KPIs in the months that followed."
           ],
           campaignImages: [
             {
@@ -119,18 +121,16 @@ const timelineContent = {
         hasModal: true,
         modalId: "denmark2023Modal",
         modalContent: {
-          projectOverview: "Led the successful launch of Vinted in Denmark and Finland, building on our successful approach from Sweden while adapting to local market nuances.",
+          projectOverview: "Following our success in Sweden, we applied a similar approach to a new market where Vinted had no established media presence. The objective was to build brand awareness and drive user acquisition through a more diversified media mix, while staying aligned with the company’s performance-driven expectations and ensuring a strong ROI with reduced payback periods.",
           challenges: [
-            "Adapting marketing strategy to unique Nordic media consumption patterns",
-            "Managing multiple stakeholders across different time zones",
-            "Balancing brand awareness with performance marketing goals",
-            "Coordinating simultaneous launches in two markets"
+            "<p>Securing approval for new media channels in a highly data-focused environment posed familiar obstacles, including:</p>",
+            "- Even lower TV viewership than in other high-performing markets",
+            "- Limited brand recognition, requiring alternative formats to boost awareness and reach",
+            "- The need to prove measurable performance for all media investments"
           ],
-          approach: "Implemented a data-driven approach combining traditional and digital channels, with a strong focus on TV and OOH advertising. Developed unique creative concepts that resonated with local audiences while maintaining brand consistency.",
+          approach: "Working in close partnership with Brand, Production, Digital, and Data teams, we aligned on budget priorities and built a detailed media plan tailored to the market’s unique characteristics. I led the development of a structured testing framework to assess new channels based on coverage, CPM efficiency, and cross-media synergies, while forecasting their impact on product metrics and payback periods. After securing approval, I collaborated with our media agency and external partners to select optimal OOH formats and placements. I adapted plans in response to media vendor availability and coordinated closely with internal teams to ensure creative delivery, data integrity, and smooth execution. Throughout the campaign, I monitored performance closely and led a comprehensive post-campaign analysis, combining internal data with brand research insights.",
           results: [
-            "Exceeded user acquisition targets by 25%",
-            "Achieved brand awareness goals within first 3 months",
-            "Successfully established Vinted as a key player in the Nordic second-hand fashion market"
+            "The campaign drove a 40% increase in brand awareness and consideration among the target audience. It also helped sustain a strong user acquisition trajectory, validating the strategic shift toward a more diversified and locally relevant media mix."
           ],
           campaignImages: [
             {
@@ -216,8 +216,8 @@ const timelineContent = {
         position: "right",
         icon: '<img src="img/TechBBQ.png" alt="Techbbq logo" class="company-logo">',
         title: "2025 April",
-        date: "Volunteering at TechBBQ as Marketing & Sales assistant",
-        description: "<p>I’m currently volunteering as a <b>Marketing and Sales Assistant at TechBBQ</b> while exploring my next career opportunity. In this role, I’m actively <b>contributing to the empowerment of startups and innovation in Scandinavia. I focus on customer service and direct ticket sales</b>, gaining hands-on experience in a fast-paced, dynamic environment.</p> <p>My responsibilities include <b>managing attendee inquiries via email, assisting with sales outreach, and supporting event logistics</b>. I collaborate with the marketing and sales teams to implement communication strategies and gather feedback to improve future events. This volunteer position has been a great way to stay engaged and continue developing my marketing and sales skills while I search for my next professional challenge.</p>",
+        date: "TechBBQ. Marketing and Sales Assistant (internship)",
+        description: "<p>I’m currently volunteering as a <b>Marketing and Sales Assistant at TechBBQ</b> - Scandinavia's largest startup and innovation summit - while exploring my next career opportunity. In this role, I’m actively <b>contributing to the empowerment of startups and innovation in Scandinavia. I focus on customer service and direct ticket sales</b>, gaining hands-on experience in a fast-paced, dynamic environment.</p> <p>My responsibilities include <b>managing attendee inquiries via email, assisting with sales outreach, and supporting event logistics</b>. I collaborate with the marketing and sales teams to implement communication strategies and gather feedback to improve future events. This volunteer position has been a great way to stay engaged and continue developing my marketing and sales skills while I search for my next professional challenge.</p>",
         hasModal: false
       }
     ]

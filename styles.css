@@ -31,16 +31,22 @@ body {
     padding: 64px 30px 30px 30px;
     border-radius: 8px;
     max-width: 1000px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
     position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
     overflow-y: auto;
 }
+.modal-content ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
 
 .modal-text {
     padding-right: 20px;
+    color: #6c6868;
 }
 
 .modal-images {
@@ -125,7 +131,7 @@ body {
     font-size: 24px;
     font-weight: bold;
     cursor: pointer;
-    color: #666;
+    color: #333;
     z-index: 3;
     width: 32px;
     height: 32px;
@@ -150,7 +156,7 @@ body {
 
 .project-details p {
     margin-bottom: 15px;
-    color: #636e72;
+    color: #6c6868;
 }
 
 /* Responsive design for modal */
@@ -340,6 +346,7 @@ h3 {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
+    
 }
 
 .timeline-item {
@@ -357,6 +364,12 @@ h3 {
     background: #9e8d9a;
     border-radius: 50%;
     top: 20px;
+}
+
+.timeline-item .content p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  line-height: 1.6;
 }
 
 .left {
@@ -585,7 +598,7 @@ p, .subtitle, .content, .resume-section, .timeline-item, .modal-content {
     font-family: 'Kanit', sans-serif;
     font-weight: 500;
     font-size: 1.75rem;
-    color: #2d3436;
+    color: #333;
     margin-bottom: 1.5rem;
 }
 
@@ -593,7 +606,7 @@ p, .subtitle, .content, .resume-section, .timeline-item, .modal-content {
     font-family: 'Kanit', sans-serif;
     font-weight: 500;
     font-size: 1.25rem;
-    color: #2d3436;
+    color: #333;
     margin-top: 1.5rem;
     margin-bottom: 1rem;
 }
