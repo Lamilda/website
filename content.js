@@ -4,7 +4,7 @@ const timelineContent = {
     items: [
       {
         position: "left",
-        icon: '<img src="img/1.png" alt="Euroreklama logo" class="company-logo">',
+        icon: '<img src="" alt="" class="company-logo">',
         title: "2011",
         date: "Media planner at Euroreklama",
         description: "My marketing journey began at a small local media agency, where I quickly immersed myself in every stage of the campaign lifecycle. From <b>planning and optimizing media placements</b> to <b>analyzing performance</b> and <b>presenting post-campaign reports</b>, I gained a solid foundation in practical marketing. I <b>worked closely with external partners</b> and <b>supported the account manager in crafting effective media strategies</b>—an experience that gave me a well-rounded and hands-on introduction to the industry.",
@@ -204,16 +204,9 @@ const timelineContent = {
         description: "",
         hasModal: false
       }, 
+      
       {
         position: "left",
-        icon: '<img src="img/vinted.png" alt="" class="company-logo">',
-        title: "2025",
-        date: "Goodbye Vinted",
-        description: "",
-        hasModal: false
-      },
-      {
-        position: "right",
         icon: '<img src="img/TechBBQ.png" alt="Techbbq logo" class="company-logo">',
         title: "2025 April",
         date: "TechBBQ. Marketing and Sales Assistant (internship)",
