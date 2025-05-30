@@ -204,13 +204,20 @@ const timelineContent = {
         description: "",
         hasModal: false
       }, 
-      
       {
         position: "left",
         icon: '<img src="img/TechBBQ.png" alt="Techbbq logo" class="company-logo">',
         title: "2025 April",
         date: "TechBBQ. Marketing and Sales Assistant (internship)",
         description: "<p>I’m currently volunteering as a <b>Marketing and Sales Assistant at TechBBQ</b> - Scandinavia's largest startup and innovation summit - while exploring my next career opportunity. In this role, I’m actively <b>contributing to the empowerment of startups and innovation in Scandinavia. I focus on customer service and direct ticket sales</b>, gaining hands-on experience in a fast-paced, dynamic environment.</p> <p>My responsibilities include <b>managing attendee inquiries via email, assisting with sales outreach, and supporting event logistics</b>. I collaborate with the marketing and sales teams to implement communication strategies and gather feedback to improve future events. This volunteer position has been a great way to stay engaged and continue developing my marketing and sales skills while I search for my next professional challenge.</p>",
+        hasModal: false
+      }, 
+      {
+        position: "right",
+        icon: '<img src="img/ime.jpeg" alt="" class="company-logo">',
+        title: "2025 May",
+        date: "Sustainability & Self-Awareness Course (invited by Københavns Erhvervshus)",
+        description: "<p>I participated in two-weeks course in Copenhagen <b>focused on self-leadership, sustainable business strategies, and the circular economy</b>.</p> <p>Organized by the Foundation for International Management Education (IME) in collaboration with sustainability experts, the program <b>combined personal development with hands-on insight into the green transition and ESG-focused business models</b>. The course blended self-reflection exercises, peer learning, and real-world case work, helping us understand how personal values shape collaboration, leadership, and career choices. It concluded with a team case presentation to a Danish company, applying sustainable innovation to real business challenges.</p> This intensive and collaborative experience deepened my understanding of purpose-driven business and helped me reflect on how my skills can support sustainability-focused growth.",
         hasModal: false
       }
     ]
