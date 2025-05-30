@@ -68,7 +68,7 @@ const timelineContent = {
         icon: '<img src="img/vinted.png" alt="Vinted logo" class="company-logo">',
         title: "2022",
         date: "🇸🇪 Sweden launch",
-        description: "I then shifted my focus to the <b>Nordic markets</b>, where media consumption habits—particularly around TV viewership—differ notably from the rest of Europe. <b>Partnering with cross-functional teams</b> across Product, Data, Brand, Production, and Digital, we <b>developed and executed a market entry strategy</b> tailored to the region’s unique characteristics. When early results fell short of expectations, I introduced innovative communication approaches and implemented structured testing frameworks, which ultimately led to strong performance improvements and significant growth in the region.",
+        description: "I then shifted my focus to the <b>Nordic markets</b>, where media consumption habits—particularly around TV viewership—differ notably from the rest of Europe. <b>Partnering with cross-functional teams</b> across Product, Data, Brand, Production, and Digital, we <b>developed and executed a market entry strategy</b> tailored to the region’s unique characteristics. As we faced challenges in reaching our targets, I added new media formats to our regular communication and applied a structured testing approach, which ultimately led to strong performance improvements and significant growth in the region.",
         hasModal: true,
         modalId: "sweden2022Modal",
         modalContent: {
