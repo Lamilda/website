@@ -121,6 +121,8 @@ const timelineContent = {
         hasModal: true,
         modalId: "denmark2023Modal",
         modalContent: {
+          modalTitle: "Example of OOH campaign in 🇩🇰 Denmark",
+          modalDate: "Q1 2024",
           projectOverview: "Following our success in Sweden, we applied a similar approach to a new market where Vinted had no established media presence. The objective was to build brand awareness and drive user acquisition through a more diversified media mix, while staying aligned with the company’s performance-driven expectations and ensuring a strong ROI with reduced payback periods.",
           challenges: [
             "<p>Securing approval for new media channels in a highly data-focused environment posed familiar obstacles, including:</p>",

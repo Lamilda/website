@@ -52,6 +52,7 @@ window.onclick = function(event) {
     }
 }
 
+
 // Tab functionality
 function openTab(evt, tabName) {
     // Hide all tab content
@@ -76,9 +77,12 @@ function populateTimeline() {
     const timelineContainer = document.getElementById('timeline-container');
     const modalsContainer = document.getElementById('modals-container');
     
+    
     // Clear existing content
     timelineContainer.innerHTML = '';
     modalsContainer.innerHTML = '';
+
+    console.log("timelineContent:", timelineContent); // ✅ Check data is loaded
     
     // Add timeline items
     timelineContent.items.forEach(item => {
@@ -124,13 +128,18 @@ function populateTimeline() {
             const modal = document.createElement('div');
             modal.id = item.modalId;
             modal.className = 'modal';
-            
+
+            // ✅ Debug modal data
+            console.log(`Building modal for: ${item.title}`);
+            console.log("Modal Title:", item.modalContent.modalTitle);
+            console.log("Modal Date:", item.modalContent.modalDate);
+
             // Create modal content with two columns
             const modalHTML = `
                 <div class="modal-content">
                     <div class="modal-text">
-                        <h2>${item.title}</h2>
-                        <div class="date">${item.date}</div>
+                        <h2>${item.modalContent.modalTitle || item.title}</h2>
+                        <div class="date">${item.modalContent.modalDate || item.date}</div>
                         <div class="project-details">
                             <h3>Project Overview</h3>
                             <p>${item.modalContent.projectOverview}</p>
@@ -164,9 +173,9 @@ function populateTimeline() {
                     <span class="close-modal" onclick="closeModal('${item.modalId}')">&times;</span>
                 </div>
             `;
-            
             modal.innerHTML = modalHTML;
             modalsContainer.appendChild(modal);
+
         }
         
         timelineItem.appendChild(content);
