@@ -200,7 +200,7 @@ const timelineContent = {
       },
       {
         position: "right",
-        icon: '<img src="img/DK.png" alt="" class="company-logo">',
+        icon: '<img src="img/DK.png" alt="" class="company-logo" style="width:80px; height:auto;">',
         title: "2023",
         date: "Moved to Copenhagen and worked remotely",
         description: "",
