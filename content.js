@@ -7,7 +7,7 @@ const timelineContent = {
         icon: '<img src="" alt="" class="company-logo">',
         title: "2011",
         date: "Media planner at Euroreklama",
-        description: "My marketing journey began at a small local media agency, where I quickly immersed myself in every stage of the campaign lifecycle. From <b>planning and optimizing media placements</b> to <b>analyzing performance</b> and <b>presenting post-campaign reports</b>, I gained a solid foundation in practical marketing. I <b>worked closely with external partners</b> and <b>supported the account manager in crafting effective media strategies</b>—an experience that gave me a well-rounded and hands-on introduction to the industry.",
+        description: "My marketing journey began at a small local media agency, where I quickly immersed myself in every stage of the campaign lifecycle. From <b>planning and optimizing media placements</b> to <b>analyzing performance</b> and <b>presenting post-campaign reports</b>, I gained a solid foundation in practical marketing. I <b>worked closely with external partners</b> and <b>supported the account manager in crafting effective media strategies</b> - an experience that gave me a well-rounded and hands-on introduction to the industry.",
         hasModal: false
       },
       {
@@ -39,7 +39,7 @@ const timelineContent = {
         icon: '<img src="img/codecademy.jpg" alt="Education" class="company-logo">',
         title: "2020",
         date: "Data Science course on Code Academy",
-        description: "After nearly nine dynamic years in the fast-paced world of media agencies, I decided to take a step back and reflect on my long-term career goals. I took a nine-month break during the early stages of the Covid-19 pandemic—a period that offered both challenges and the opportunity to reset. Recognizing the growing importance of <b>data in marketing</b>, I used this time to <b>build my technical skills</b> by completing foundational courses in SQL and Python, laying the groundwork for a more data-driven approach to strategic decision-making.",
+        description: "After nearly nine dynamic years in the fast-paced world of media agencies, I decided to take a step back and reflect on my long-term career goals. I took a nine-month break during the early stages of the Covid-19 pandemic, a period that offered both challenges and the opportunity to reset. Recognizing the growing importance of <b>data in marketing</b>, I used this time to <b>build my technical skills</b> by completing foundational courses in SQL and Python, laying the groundwork for a more data-driven approach to strategic decision-making.",
         hasModal: false
       },
       {
@@ -48,7 +48,7 @@ const timelineContent = {
         title: "2020",
         date: "Mass media marketing project manager at Vinted",
         description: `
-        <p>My next step took me to the client side, where I joined Vinted—a fast-growing tech company on a mission to make second-hand fashion the first choice. As <b>Mass Media Marketing Project Manager</b>, I was responsible for <b>driving growth in the German and Belgian</b> markets through strategic offline communication. I <b>led end-to-end project management, aligning cross-functional stakeholders and ensuring timely, effective campaign execution</b> across regions.</p> 
+        <p>My next step took me to the client side, where I joined Vinted, a fast-growing tech company on a mission to make second-hand fashion the first choice. As <b>Mass Media Marketing Project Manager</b>, I was responsible for <b>driving growth in the German and Belgian</b> markets through strategic offline communication. I <b>led end-to-end project management, aligning cross-functional stakeholders and ensuring timely, effective campaign execution</b> across regions.</p> 
 
         <p>Working in a fast-paced, high-growth environment, I managed large-scale budgets and tight deadlines while <b>maintaining a structured, solution-oriented approach. I oversaw external media agencies</b>, providing clear briefs and strategic direction to ensure strong campaign delivery. Data played a key role in my decision-making, and I leveraged <b>econometric models and performance analytics to evaluate campaign effectiveness and uncover actionable insights</b>.</p>
 
@@ -68,7 +68,7 @@ const timelineContent = {
         icon: '<img src="img/vinted.png" alt="Vinted logo" class="company-logo">',
         title: "2022",
         date: "🇸🇪 Sweden launch",
-        description: "I then shifted my focus to the <b>Nordic markets</b>, where media consumption habits—particularly around TV viewership—differ notably from the rest of Europe. <b>Partnering with cross-functional teams</b> across Product, Data, Brand, Production, and Digital, we <b>developed and executed a market entry strategy</b> tailored to the region’s unique characteristics. As we faced challenges in reaching our targets, I added new media formats to our regular communication and applied a structured testing approach, which ultimately led to strong performance improvements and significant growth in the region.",
+        description: "I then shifted my focus to the <b>Nordic markets</b>, where media consumption habits, particularly around TV viewership, differ notably from the rest of Europe. <b>Partnering with cross-functional teams</b> across Product, Data, Brand, Production, and Digital, we <b>developed and executed a market entry strategy</b> tailored to the region’s unique characteristics. As we faced challenges in reaching our targets, I added new media formats to our regular communication and applied a structured testing approach, which ultimately led to strong performance improvements and significant growth in the region.",
         hasModal: true,
         modalId: "sweden2022Modal",
         modalContent: {
